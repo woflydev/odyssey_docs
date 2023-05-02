@@ -49,9 +49,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Mentorship Guide",
+        title: "Project Odyssey",
         logo: {
-          alt: "Mentorship Guide Logo",
+          alt: "Project Odyssey Logo",
           src: "img/mg-book.svg",
         },
         items: [
@@ -63,7 +63,7 @@ const config = {
           },
           { to: "/docs/contributing", label: "Contribute", position: "left" },
           {
-            href: "https://github.com/mentorship-sponsorship/mentorship-guide-docs",
+            href: "https://github.com/woflydev/odyssey_cnn",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
@@ -121,14 +121,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Mentorship Guide - Built with Docusaurus`,
+        copyright: `Project Odyssey <br /> &copy; ${new Date().getFullYear()}.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
       colorMode: {
+        defaultMode: "dark",
         disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
     }),
 };

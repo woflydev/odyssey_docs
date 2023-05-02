@@ -16,14 +16,14 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero--primary", styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Mentorship should be accessible to all</h1>
+        <h1 className="hero__title">Project Odyssey</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/what-why-mentorship"
           >
-            Read the Guide 📖
+            Read the updates! 📖
           </Link>
         </div>
       </div>
@@ -42,9 +42,8 @@ export default function Home(): JSX.Element {
         <HomepageFeatures />
         <WaveBottomShapeDivider />
         <HeroTitleSecondary
-          title="Mentorship is an act, experience, and opportunity to share what you
-          can, when you can, how you can."
-          ctaText="Read the Guide 📖"
+          title="We are a passionate group of individuals working towards the deployment of full autonomous driving."
+          ctaText="Read the docs! 📖"
           ctaLink="/docs/what-why-mentorship"
         />
         <ConferenceTalkLogos />
