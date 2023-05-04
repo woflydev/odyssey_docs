@@ -2,12 +2,12 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  tutorialSidebar: [
-    "what-why-mentorship",
+  sidebar: [
+    "about",
     {
       type: "category",
       collapsed: false,
-      label: "Mentors",
+      label: "Past Experiences",
       link: {
         type: "doc",
         id: "mentors-overview",
@@ -34,22 +34,6 @@ const sidebars = {
         "mentees-practices",
       ],
     },
-    "safety",
-    {
-      type: "category",
-      collapsed: true,
-      label: "Resources",
-      link: {
-        type: "doc",
-        id: "resources-overview",
-      },
-      items: [
-        "resources-mentorship-programs",
-        "resources-articles",
-        "resources-talks",
-        "web3",
-      ],
-    },
     {
       type: "category",
       collapsed: true,
@@ -59,18 +43,11 @@ const sidebars = {
         id: "contributing-overview",
       },
       items: [
-        "about",
         "code-of-conduct",
         "contributing",
         "internationalization",
         "thank-you-contributions",
       ],
-    },
-    {
-      type: "category",
-      collapsed: true,
-      label: "Coming soon",
-      items: ["mentors-practices", "mental-models", "omnicare"],
     },
   ],
 };

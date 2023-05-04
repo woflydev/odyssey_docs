@@ -1,6 +1,6 @@
 ---
 id: about
-title: "About + Future"
+title: "About Odyssey"
 ---
 
 # About and the future

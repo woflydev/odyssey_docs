@@ -30,14 +30,10 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/mentorship-sponsorship/mentorship-guide-docs/blob/main/",
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
-          editUrl:
-            "https://github.com/mentorship-sponsorship/mentorship-guide-docs/blob/main/",
-        },
+        },*/
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -56,8 +52,7 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "what-why-mentorship",
+            to: "/docs/about",
             position: "left",
             label: "Read",
           },

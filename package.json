@@ -16,9 +16,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-rc.1",
-    "@docusaurus/preset-classic": "2.0.0-rc.1",
-    "@docusaurus/types": "2.0.0-rc.1",
+    "@docusaurus/core": "^2.4.0",
+    "@docusaurus/preset-classic": "^2.4.0",
+    "@docusaurus/types": "^2.4.0",
     "@easyops-cn/docusaurus-search-local": "^0.30.2",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
@@ -39,7 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-rc.1",
+    "@docusaurus/module-type-aliases": "^2.4.0",
     "@tsconfig/docusaurus": "^1.0.6",
     "lint-staged": ">=10",
     "prettier": "2.7.1",
