@@ -7,37 +7,31 @@ const sidebars = {
     {
       type: "category",
       collapsed: false,
-      label: "Past Experiences",
+      label: "Our Team",
       link: {
         type: "doc",
-        id: "mentors-overview",
+        id: "our-team-overview",
       },
       items: [
         "mentorship-styles",
-        "mentorship-forms",
-        "mentors-becoming-a-mentor",
-        "mentors-what-to-share",
-        "mentors-when-where-to-mentor",
       ],
     },
     {
       type: "category",
       collapsed: false,
-      label: "Mentees",
+      label: "Software and Hardware",
       link: {
         type: "doc",
         id: "mentees-overview",
       },
       items: [
         "mentees-how-to-find-mentors",
-        "mentees-where-to-find-mentors",
-        "mentees-practices",
       ],
     },
     {
       type: "category",
       collapsed: true,
-      label: "Contributing",
+      label: "Github and Contributing",
       link: {
         type: "doc",
         id: "contributing-overview",
